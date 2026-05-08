@@ -13,13 +13,31 @@
   flex-direction: row;
 }
 
+.menu-item {
+  font-size: 18px;
+  list-style: none;
+}
+
 .header__menu-list {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 32px;
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-item {
+  padding-left: 0;
+  list-style: circle;
+}
+
+.header__menu-item--active {
+  list-style: none;
 }
 
 .logo-black {
+  margin-left: -130px;
   width: 148px;
   height: 105px;
 }
@@ -236,8 +254,4 @@
   flex-direction: column;
   text-align: center;
   gap: 4px;
-}
-
-.menu-item {
-  font-size: 18px;
 }

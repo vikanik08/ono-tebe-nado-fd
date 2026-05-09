@@ -46,6 +46,10 @@
   gap: 4px;
   font-size: 18px;
 }
+.address__link,
+.address__text {
+  line-height: 24.3px;
+}
 
 .header__address {
   width: 55%;
